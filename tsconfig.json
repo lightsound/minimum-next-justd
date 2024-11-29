@@ -6,7 +6,10 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "bundler",
-    "paths": { "~/*": ["./src/*"] },
+    "paths": {
+      "~/*": ["./src/*"],
+      "ui": ["./src/components/ui/index.ts"]
+    },
     "resolveJsonModule": true,
     "allowJs": true,
     "strict": true,

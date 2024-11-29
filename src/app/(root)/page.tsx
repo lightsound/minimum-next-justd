@@ -1,7 +1,12 @@
+import { Button, Card, Heading } from '~/justd/ui'
+
 export default function Page() {
   return (
-    <main>
-      <div className="bg-red-200 p-4 text-4xl font-bold text-red-900">hello</div>
-    </main>
+    <div className="p-20">
+      <Card className="space-y-4 p-4">
+        <Heading>Hello, Justd!</Heading>
+        <Button>無反応ボタン</Button>
+      </Card>
+    </div>
   )
 }
